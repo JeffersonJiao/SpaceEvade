@@ -1,0 +1,45 @@
+*{
+    overflow: auto;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+}
+#saveScore{
+    width: 100%;
+    max-width: 288px;
+    display: none;
+}
+#saveScore button{
+    color: #eee;
+    font-weight: bold;
+}
+.wrapper{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8)), url(../imgs/homebg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#fff;
+    min-height: 100vh;
+}
+.padding{
+    width: 100%;
+    max-width: 288px;
+    background-color: rgba(0,0,0,.7);
+    margin-top: 20px;
+    text-align: center;
+    height: 520px;
+    margin-bottom: 20px;
+}
+.padding h1{
+    font-family: 'helvetica-nueue',sans-serif;
+    font-size: 21px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.padding a{
+    display: block;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: yellow;
+}

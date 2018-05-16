@@ -1,0 +1,24 @@
+{
+  "name": "spaceevade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Arduino",
+    "Ultra-sonic-sensor",
+    "node.js"
+  ],
+  "author": "Jefferson Jiao",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ease-component": "^1.0.0",
+    "ejs": "^2.5.9",
+    "express": "^4.16.3",
+    "johnny-five": "^0.14.3",
+    "socket.io": "^2.1.0"
+  }
+}
